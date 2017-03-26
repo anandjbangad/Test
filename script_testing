@@ -6,9 +6,9 @@ for i in 65 70 75 80 85 90 95 100 105 110 115 120 125 130 135 140 145 150 155 16
 do
 echo ""
 echo "20t_nl $i"
-sudo sched_test_app -s RMA -f chronos/ChronOS_3.0/Task\ Sets/20t_nl -c $i -r 20
+sudo sched_test_app -s RMA -f chronos/ChronOS_3.0/Task\ Sets/20t_nl -c $i -r 30
 echo "27t_nl $i"
-sudo sched_test_app -s RMA -f chronos/ChronOS_3.0/Task\ Sets/27t_nl -c $i -r 20
+sudo sched_test_app -s RMA -f chronos/ChronOS_3.0/Task\ Sets/27t_nl -c $i -r 30
 done
 
 sudo rmmod rma
@@ -20,9 +20,9 @@ for i in 65 70 75 80 85 90 95 100 105 110 115 120 125 130 135 140 145 150 155 16
 do
 echo ""
 echo "20t_nl $i"
-sudo sched_test_app -s MYEDF -f chronos/ChronOS_3.0/Task\ Sets/20t_nl -c $i -r 20
+sudo sched_test_app -s MYEDF -f chronos/ChronOS_3.0/Task\ Sets/20t_nl -c $i -r 30
 echo "27t_nl $i"
-sudo sched_test_app -s MYEDF -f chronos/ChronOS_3.0/Task\ Sets/27t_nl -c $i -r 20
+sudo sched_test_app -s MYEDF -f chronos/ChronOS_3.0/Task\ Sets/27t_nl -c $i -r 30
 done
 sudo rmmod myedf
 
@@ -34,9 +34,9 @@ for i in 65 70 75 80 85 90 95 100 105 110 115 120 125 130 135 140 145 150 155 16
 do
 echo ""
 echo "20t_nl $i"
-sudo sched_test_app -s HVDF -f chronos/ChronOS_3.0/Task\ Sets/20t_nl -c $i -r 20
+sudo sched_test_app -s HVDF -f chronos/ChronOS_3.0/Task\ Sets/20t_nl -c $i -r 30
 echo "27t_nl $i"
-sudo sched_test_app -s HVDF -f chronos/ChronOS_3.0/Task\ Sets/27t_nl -c $i -r 20
+sudo sched_test_app -s HVDF -f chronos/ChronOS_3.0/Task\ Sets/27t_nl -c $i -r 30
 done
 sudo rmmod hvdf
 
