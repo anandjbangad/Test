@@ -4260,5 +4260,3 @@ goto_next_file:  // don't jump here after ao/vo/getch initialization!
 }
 
 #endif /* DISABLE_MAIN */
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
